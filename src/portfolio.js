@@ -1,5 +1,5 @@
 const header = {
-  homepage: "https://sainparul19.github.com/portfolio02",
+  homepage: "https://github.com/sainparul19/portfolio02.git",
   title: "PS.",
 };
 
@@ -12,7 +12,7 @@ const about = {
     "https://drive.google.com/file/d/1HNClECeBO68YjdNJgzbyOhqOdYRRCCLy/view?usp=sharing",
   social: {
     linkedin: "https://linkedin.com",
-    github: "https://github.com",
+    github: "https://github.com/sainparul19/portfolio02.git",
   },
 };
 
@@ -21,21 +21,21 @@ const projects = [
     name: "Toothsi",
     description: "Created toothsi UI clone from scratch with React JS .",
     stack: [],
-    sourceCode: "https://github.com",
+    sourceCode: "https://github.com/sainparul19/toothsi.git",
     livePreview: "https://toothsi-clone.web.app",
   },
   {
     name: "Instagram",
     description: "Build instagram clone with React JS and Material UI",
     stack: [],
-    sourceCode: "https://github.com",
+    sourceCode: "https://github.com/sainparul19/instagram.git",
     livePreview: "https://instagram-clone-33a1b.web.app",
   },
   {
     name: "Facebook",
     description: "Build facebook clone with React JS and Material UI",
     stack: [],
-    sourceCode: "https://github.com",
+    sourceCode: "https://github.com/sainparul19/fb-clone.git",
     livePreview: "https://fb-clone-3a0b7.web.app",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     description:
       "Created clone of cred web app from scratch with React JS by making reusable components",
     stack: [],
-    sourceCode: "https://github.com",
+    sourceCode: "https://github.com/sainparul19/cred-clone.git",
     livePreview: "https://cred-clone-41b93.web.app",
   },
 ];
@@ -51,7 +51,7 @@ const projects = [
 const skills = ["HTML 5", "CSS 3", "JavaScript", "React JS", "Next JS"];
 
 const contact = {
-  email: "parul.sain019@gmail.com.com",
+  email: "parul.sain019@gmail.com",
 };
 
 export { header, about, projects, skills, contact };
