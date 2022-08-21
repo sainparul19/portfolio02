@@ -122,9 +122,9 @@ main {
 }
 
 .btn--plain {
-  text-transform: initial;
+  text-transform: none;
   background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 15%);
   border: 0;
 }
 
