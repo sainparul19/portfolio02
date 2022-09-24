@@ -12,7 +12,7 @@ const about = {
     "https://drive.google.com/file/d/1HNClECeBO68YjdNJgzbyOhqOdYRRCCLy/view?usp=sharing",
   social: {
     linkedin: "https://linkedin.com",
-    github: "https://github.com/sainparul19/portfolio02.git",
+    github: "https://github.com/sainparul19",
   },
 };
 

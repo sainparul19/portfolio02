@@ -22,7 +22,9 @@ const Contact = () => {
       className="container border"
       style={{
         marginTop: "50px",
-        width: "90%",
+        width: "50%",
+        textAlign: "center",
+        margin: "0 auto",
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
@@ -30,22 +32,37 @@ const Contact = () => {
       <h2 style={{ marginTop: "25px" }}>Contact Form</h2>
       <form
         className="row"
-        style={{ margin: "25px 85px 75px 100px", width: "60%" }}
+        style={{ margin: "25px 50px 75px", width: "70%" }}
         onSubmit={sendEmail}
       >
         <label>Name</label>
-        <input type="text" name="name" className="form-control" />
+        <input
+          type="text"
+          name="name"
+          className="form-control"
+          style={{ margin: "10px" }}
+        />
 
         <label>Email</label>
-        <input type="email" name="user_email" className="form-control" />
+        <input
+          type="email"
+          name="user_email"
+          className="form-control"
+          style={{ margin: "10px" }}
+        />
 
         <label>Message</label>
-        <textarea name="message" rows="4" className="form-control" />
+        <textarea
+          name="message"
+          rows="4"
+          className="form-control"
+          style={{ margin: "10px" }}
+        />
         <input
           type="submit"
           value="Send"
           className="form-control btn btn-primary"
-          style={{ marginTop: "30px" }}
+          style={{ margin: "10px" }}
         />
       </form>
     </div>

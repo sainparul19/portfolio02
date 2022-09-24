@@ -65,14 +65,14 @@ const Navbar = () => {
         {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
-      <button
+      {/* <button
         type="button"
         onClick={toggleNavList}
         className="btn btn--icon nav__hamburger"
         aria-label="toggle navigation"
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
-      </button>
+      </button> */}
     </nav>
   );
 };
