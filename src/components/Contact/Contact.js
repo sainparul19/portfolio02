@@ -22,7 +22,7 @@ const Contact = () => {
       className="container border"
       style={{
         marginTop: "50px",
-        width: "50%",
+        width: "70%",
         textAlign: "center",
         margin: "0 auto",
         backgroundPosition: "center",
