@@ -29,7 +29,7 @@ const projects = [
     description: "Build instagram clone with React JS and Material UI",
     stack: [],
     sourceCode: "https://github.com/sainparul19/instagram.git",
-    livePreview: "https://instagram-clone-33a1b.web.app",
+    livePreview: "https://instag-687c6.web.app",
   },
   {
     name: "Facebook",
